@@ -1,0 +1,29 @@
+.titleId{
+    color: red;
+    font-weight: bold;
+    font-size: 18pt;
+    font-style: italic;
+    font-family: Arial, Verdana,Georgia, Tahoma;
+}
+
+h4{
+    color: green;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p::first-letter{
+    text-transform: capitalize;
+}

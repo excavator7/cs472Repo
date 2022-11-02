@@ -1,0 +1,123 @@
+.contentDiv{
+    width: 47%;
+    float: left;
+}
+
+body{
+    background-image: url('images/background.png');
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    width:900px;
+}
+
+#overviewId{
+    float: right;
+}
+
+#rottenId{
+    background-image: url('images/rbg.png');
+    background-repeat: repeat-x;
+    width: 550px;
+    height: 10%;
+}
+
+.paragraphStyle{
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 130px;
+    margin-right: 10px;
+    font: 8pt;
+    font-weight: bold;
+    background-color: #E8DC9B;
+    padding: 8px;
+}
+
+p{
+    height: 20px;
+    margin: 20pt;
+}
+
+p img{
+    float: left;
+    padding-right: 5px;
+}
+
+#starringId{
+    width: 250px;
+    float: right;
+    position: absolute;
+    top: 85%;
+    right: 11%;
+    background-color: #A2B964;
+    height: 133%;
+    padding-top: 10pt;
+    font-size: 8pt;
+    font-family: Arial ,sans-serif;
+}
+
+#footer{
+    background-color: #A2B964;
+    position: absolute;
+    top: 211%;
+    height: 4%;
+    width: 71%;
+    right: 29%;
+    text-align: center;
+    padding: 5px;
+}
+
+#validatorId{
+    position: absolute;
+    top: 204%;
+}
+
+#rottenId > #percId{
+    position: absolute;
+    top: 24%;
+    color: red;
+    font-weight: bold;
+    right: 68%;
+    font-size: 48pt;
+}
+
+#bannerId{
+    background-image: url('images/bannerbg.png');
+    background-repeat: repeat-x;
+    height: 83px;
+}
+
+h1{
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    text-shadow: 3px 3px #999999;
+}
+
+#contentDiv{
+    width: 800px;
+    margin: auto;
+}
+
+#section1{
+    width: 550px;
+}
+
+.reviewerId{
+    font-style: italic;
+}
+
+.reviewerId > p{
+    padding-right: 5px;
+}
+
+dt{
+    margin-top: 10pt;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 0;
+}
