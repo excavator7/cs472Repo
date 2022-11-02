@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url('images/background.png');
+    background-image: url('../images/background.png');
     font-size: 8pt;
     font-family: Verdana, Tahoma, sans-serif;
     margin: 0%;
@@ -17,7 +17,7 @@ body{
 }
 
 #rottenId{
-    background-image: url('images/rbg.png');
+    background-image: url('../images/rbg.png');
     background-repeat: repeat-x;
     width: 550px;
     height: 10%;
@@ -83,7 +83,7 @@ p img{
 }
 
 #bannerId{
-    background-image: url('images/bannerbg.png');
+    background-image: url('../images/bannerbg.png');
     background-repeat: repeat-x;
     height: 83px;
 }
