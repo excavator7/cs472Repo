@@ -1,0 +1,35 @@
+#header{
+    background-color: lightblue;
+    text-align: center;
+    height: 70px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+#menus{
+    background-color: green;
+    height: 20%;
+}
+
+#columns{
+    background-color: grey;
+    height: 200px;
+}
+
+#footer{
+    background-color: green;
+    text-align: center;
+    height: 70px;
+}
+
+#col1{
+    background-color: rgb(77, 74, 74);
+}
+
+#col2{
+    background-color: rgb(97, 94, 94);
+}
+
+#col3{
+    background-color: rgb(199, 195, 195);
+}

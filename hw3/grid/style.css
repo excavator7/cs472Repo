@@ -1,0 +1,75 @@
+h1{
+    background-color: lightblue;
+    text-align: center;
+}
+
+.menu1{
+    grid-area: menu1;
+    background-color: green;
+    height: 50px;
+}
+
+.menu2{
+    grid-area: menu2;
+    background-color: green;
+    height: 50px;
+}
+
+.menu3{
+    grid-area: menu3;
+    background-color: green;
+    height: 50px;
+}
+
+.col1{
+    grid-area: col1;
+    background-color: rgb(78, 73, 73);
+    height: 200px;
+}
+
+.col2{
+    grid-area: col2;
+    background-color: rgb(99, 93, 93);
+    height: 200px;
+}
+
+.col3{
+    grid-area: col3;
+    background-color: rgb(161, 153, 153);
+    height: 200px;
+}
+
+.header{
+    grid-area: header;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    height: 50px;
+}
+
+@media screen and (min-width: 600px) {
+    .grid-content{
+        grid-template-areas: 
+        'header header header'
+        'menu1 menu2 menu3'
+        'col1 col2 col2'
+        'col3 col3 col3'
+        'footer footer footer';
+    }
+}
+
+.grid-content{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'menu1 menu2 menu3'
+    'col1 col2 col3'
+    'footer footer footer';
+}
+

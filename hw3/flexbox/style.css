@@ -1,0 +1,43 @@
+h1{
+    background-color: lightblue;
+    margin: 0px;
+    text-align: center;
+}
+
+#nav{
+    display: flex;
+    background-color: green;
+}
+
+#nav div{
+    padding-right: 5%;
+}
+
+#content{
+    display: flex;
+    background-color: rgb(174, 170, 170);
+}
+
+#col1Id{
+    
+}
+
+#content div{
+    margin-right: 20%;
+    height: 100px;
+    width: 100px;
+}
+
+footer{
+    background-color: green;
+    text-align: center;
+    /*height: calc(10vh - 10px);*/
+}
+
+@media screen and (max-width: 600px){
+    #content{
+        display: flex;
+        flex-wrap: wrap;
+        background-color: red;
+    }
+}
