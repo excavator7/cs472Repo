@@ -38,6 +38,5 @@ footer{
     #content{
         display: flex;
         flex-wrap: wrap;
-        background-color: red;
     }
 }
