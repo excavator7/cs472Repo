@@ -1,0 +1,69 @@
+body{
+    color: rgb(108, 106, 106);
+    font-family: 'Times New Roman', Courier, monospace;
+}
+
+nav{
+    background-color: rgb(65, 191, 233);
+    height: 40pt;
+    color: white;
+    font-size: 17pt;
+}
+
+form{
+    display: grid;
+    grid-template-areas: 
+        'g1 g2';
+    margin-left: 10pt;
+}
+
+#side1{
+    grid-area: g1;
+}
+
+#side2{
+    grid-area: g2;
+}
+
+input[type="text"], input[type="date"]{
+    width:90%;
+    border: 1px solid grey;
+    border-radius: 3pt;
+    height: 30pt;
+    margin-bottom: 11pt;
+}
+
+input[type="button"]{
+    width: 74pt;
+    height: 32pt;
+    background-color: white;
+}
+
+p{
+    color: lightgrey;
+    margin-top: 0pt;
+}
+
+#reset{
+    color: black;
+    border: 1px solid black;
+    border-radius: 3pt;
+}
+
+#cancel{
+    color: red;
+    border: 1px solid red;
+    border-radius: 3pt;
+}
+
+#add{
+    color: rgb(106, 203, 235);
+    border: 1px solid rgb(106, 203, 235);
+    border-radius: 3pt;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}

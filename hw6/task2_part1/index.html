@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regex1</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class = "container">
+            <form>   
+                <div id="urlId">
+                    <label>Website URL</label>
+                    <input type="text" name="url" placeholder="Enter URL"
+                        pattern="https?://.*"
+                        title="Please enter a valid URL">
+                </div>       
+                <div>
+                    <label>Email address</label>
+                    <input type="text" name="email" placeholder="Enter email"
+                        pattern="[A-Za-z0-9_.+\-]+@[a-z0-9.\-]+\.[a-z]{2,}">
+                    <p>We'll never share your email address with anyone else.</p>
+                </div>
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="password" placeholder="Password" 
+                        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+                        title="Your password should be 10 characters in length and contain at least one number and one uppercase and lowercase letter.">
+                </div> 
+                <div>
+                    <input type="checkbox" name="checkout">
+                    <label for="checkout">Check me out</label>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>
+            </form> 
+        </div>        
+    </body>
+</html>

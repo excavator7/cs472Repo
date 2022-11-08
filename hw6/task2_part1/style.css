@@ -1,0 +1,29 @@
+.container{
+    display: grid;
+}
+
+input[type="text"], input[type="password"]{
+    width: 95%;
+    height: 50pt;
+    border: 1px solid grey;
+    border-radius: 5pt;
+}
+
+input[type="submit"]{
+    margin-top: 5%;
+    padding: 1%;
+    background-color: rgb(13, 114, 148);
+    border-radius: 5pt;
+    color: white;
+    width: 10%;
+}
+
+p{
+    color: rgb(183, 181, 181);
+    margin-top: 0pt;
+}
+
+#urlId{
+    margin-bottom: 27pt;
+}
+
