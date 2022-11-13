@@ -1,9 +1,18 @@
-#circle, .moreCircles{
+#circle{
     border: 1px solid black;
     border-radius: 62px;
     height: 53px;
     margin: auto;
     background-color: blueviolet;
+    display: none;
+}
+
+.moreCircles{
+    border: 1px solid black;
+    border-radius: 62px;
+    height: 53px;
+    margin: auto;
+    background-color: blue;
     display: none;
 }
 
