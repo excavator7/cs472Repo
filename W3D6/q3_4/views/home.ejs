@@ -8,9 +8,11 @@
         <form action="/addToCart" method="post">
             <div id="container">
                 <div>
-                    <% for (let i of prod) { %>
-                        <li><a href="/product?id=<%=i.id%>"><%= i.name %></a></li>
-                    <% } %>
+                    <ol>
+                        <% for (const i of products) { %>
+                            <li><a href="/product?id=<%=i.id%>"><%= i.name %></a></li>
+                        <% } %>
+                    </ol>
                 </div>
             </div>
         </form>

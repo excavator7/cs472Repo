@@ -6,7 +6,7 @@
     <body id="carId">
         <h1>Shopping Cart</h1>
         <div>
-            <% for(let i of cartItems) { %> 
+            <% for(const i of item) { %> 
                 <div><label>Name:</label><%=i.name%></div>
                 <div><label>Quantity:</label><%=i.quantity%></div>
                 <div><label>Price:</label><%=i.price%></div>
