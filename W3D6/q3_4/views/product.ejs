@@ -5,6 +5,7 @@
         <meta charset="utf-8">
     </head>
     <body>
+        <h1>Product</h1>
         <form action="/addToCart" method="post">
             <div id="container">
                 <div>
@@ -12,10 +13,19 @@
                     <span><%=prod.id%></span>
                 </div>
                 <div>
-                    <%=prod.toString();%>
+                    <label>Name:</label>
+                    <span><%=prod.name%></span>
                 </div>
                 <div>
-                    <input type="submit" value="Add To Cart" name="addToCart">
+                    <label>Description:</label>
+                    <span><%=prod.description%></span>
+                </div>
+                <div>
+                    <label>Price:</label>
+                    <span><%=prod.price%></span>
+                </div>
+                <div>
+                    <input id="submitBut" type="submit" value="Add To Cart" name="addToCart">
                 </div>
                 
             </div>

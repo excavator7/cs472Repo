@@ -8,11 +8,14 @@ let c = class prod{
     }
 
     toString(){
-        return  "Description: " + this.description + "\nPrice: " + this.price;
+        return  "Description: " + this.description + "\n"
+            + "\nPrice: " + this.price;
     }
 
     display(){
-        return  "ID: "+ this.id + "\nDescription: " + this.description + "\nPrice: " + this.price;
+        return  "ID: "+ this.id 
+            + "Description: " + this.description 
+            + "Price: " + this.price;
     }
 }
 
