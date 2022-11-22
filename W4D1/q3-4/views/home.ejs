@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div id="container">
+            <div>
+                <ol>
+                    <% for (const i of products) { %>
+                        <li><a href="/product?id=<%=i.id%>"><%= i.name %></a></li>
+                    <% } %>
+                </ol>
+            </div>
+        </div>
+    </body>
+</html>
